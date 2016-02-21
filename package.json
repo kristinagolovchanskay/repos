@@ -1,0 +1,23 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristinagolovchanskay/repos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kristinagolovchanskay/repos/issues"
+  },
+  "homepage": "https://github.com/kristinagolovchanskay/repos#readme",
+  "dependencies": {
+    "gulp-concat-css": "^2.2.0",
+    "gulp-watch": "^4.3.5"
+  }
+}
