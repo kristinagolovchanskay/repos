@@ -16,3 +16,12 @@ gulp.task('watch', function() {
     gulp.watch("./public/css/*.css", ['css']);
     
 });
+
+var gulp = require('gulp'),
+	concatCss = require('gulp-concat-css');
+
+gulp.task('concat', function () {
+  return gulp.src('./public/css/*.css')
+    .pipe(concatCss("bundle.css"))
+    .pipe(gulp.dest('./build/'));
+});

@@ -1,6 +1,11 @@
 body {
   width: 100%;
+  color: #cccccc;
 }
 body {
   background-color: #000000;
+}
+p {
+  color: #fff;
+  font: 16px Arial;
 }
