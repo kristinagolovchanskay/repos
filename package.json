@@ -18,6 +18,12 @@
   "homepage": "https://github.com/kristinagolovchanskay/repos#readme",
   "dependencies": {
     "gulp-concat-css": "^2.2.0",
-    "gulp-watch": "^4.3.5"
+    "gulp-cssmin": "^0.1.7",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.3.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-watch": "^4.3.5",
+    "imagemin-pngquant": "^4.2.2"
   }
 }
